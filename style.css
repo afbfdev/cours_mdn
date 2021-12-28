@@ -1,9 +1,17 @@
-html{
-  font-size:16px;
+.wrapper {
+  width: 1000px;
+  border: 5px solid rebeccapurple;
 }
-.ems li{
-  font-size:1.3em;
+
+.px {
+  border: 2px solid blue;
+
+  width: 200px;
 }
-.rems li{
-  font-size:1.3rem;
+
+.percent {
+  border: 2px solid blue;
+
+  width: 40%;
 }
+    
