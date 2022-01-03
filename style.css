@@ -1,9 +1,24 @@
-img{
-  border: 5px solid darkblue;
+*{
+  box-sizing:border-box;
+}
+.box1{
+  border:5px solid black;
+  height:100px;
+  width:30%;
+}
+.box2{
+  border:5px solid black;
+  height:100px;
+  width:30%;
 }
 .box{
-  border: 5px solid darkblue;
-  height:150px;
-  width:200px;
-
+  border:5px solid black;
+  
+}
+.inner{
+  
+  background-color:darkorchid;
+  max-width: 100%;
+  border-radius:4px;
+  margin-bottom :  .1em ;
 }
