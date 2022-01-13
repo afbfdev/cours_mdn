@@ -1,45 +1,7 @@
-body, html {
-margin: 0;
-font-family: sans-serif;
+.wrapper {
+  display: flex;
 }
 
-ul {
-  padding: 0;
-  width: 100%;
-}
-
-li {
-  display: inline;
-}
-
-a {
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
-  width: 18.50%;
-  margin-right: 0.625%;
-  text-align: center;
-  color: black;
-}
-
-li:first-child a  {
-margin-left: 2%;
-}
-
-li:last-child a {
-  margin-right: 0;
-}
-
-a:link, a:visited, a:focus {
-  background-color: yellow;
-}
-
-a:hover {
-  background: orange;
-  color: rebeccapurple;
-}
-
-a:active {
-  background: red;
-  color: white;
+.wrapper>div {
+  flex: 1;
 }
