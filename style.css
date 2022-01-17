@@ -27,4 +27,8 @@ div {
 
 button:first-child {
   align-self: flex-end;
+  order: 1;
 }
+ button:last-child {
+   order: -1;
+ }
