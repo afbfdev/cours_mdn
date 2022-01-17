@@ -23,5 +23,7 @@ article {
 
 section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 200px;
 }
