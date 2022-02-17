@@ -58,3 +58,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
 }
+
+nav {
+    position: sticky;
+    top: 15px;
+}
