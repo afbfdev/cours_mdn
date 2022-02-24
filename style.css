@@ -63,3 +63,8 @@ nav {
     position: sticky;
     top: 15px;
 }
+
+.feature {
+    float: left;
+    padding-right: 10px;
+}
