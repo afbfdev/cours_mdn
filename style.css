@@ -64,6 +64,10 @@ nav {
     top: 15px;
 }
 
+nav a {
+    outline: none;
+}
+
 .feature {
     float: left;
     padding-right: 10px;
@@ -72,4 +76,10 @@ nav {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;                                                                                          ;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
 }
